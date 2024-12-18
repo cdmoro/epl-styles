@@ -41,6 +41,11 @@
         margin: 0;
         padding: 0;
     }
+    
+    #contenido .carpeta-cat-col {
+        top: unset;
+        bottom: 26px;
+    }
 
     /* PANEL-MSG */
     #panel-msg {
