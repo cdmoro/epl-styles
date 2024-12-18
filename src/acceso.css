@@ -1,0 +1,53 @@
+/* 
+ * Estilo pagina de inicio
+ * https://www.epublibre.org/inicio/index
+ *
+ * El archivo epl_base.css es requerido
+*/
+
+@media only screen and (max-width: 940px) {
+    .disclaimer {
+      width: unset;
+      margin: 0;
+    }
+    .disclaimer .ali_centro.negrita {
+      position: sticky;
+      top: 0px;
+      background: white;
+      padding: .5rem 0
+    
+    
+    }
+    .control-group .txt_pequena.txt_naranja {
+      display: block;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .span8.offset2:has(div #solicitar) {
+      margin: 0 1rem;
+      width: unset;
+      float: none
+    
+    
+    }
+    .span8.offset2:has(div #solicitar) .control-label {
+      float: unset;
+      text-align: left;
+      width: unset;
+    }
+    .span8.offset2:has(div #solicitar) .controls {
+      margin: 0;
+    }
+    .span8.offset2:has(div #solicitar) .controls input[type="text"],
+    .span8.offset2:has(div #solicitar) .controls input[type="password"] {
+      width: 50%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .span8.offset2:has(div #solicitar) .controls input[type="text"],
+    .span8.offset2:has(div #solicitar) .controls input[type="password"],
+    #txt_text {
+      width: 100%;
+    }
+  }
+  

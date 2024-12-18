@@ -1,0 +1,143 @@
+/* 
+ * Estilo pagina de inicio
+ * https://www.epublibre.org/inicio/index
+ *
+ * nota: el archivo epl_base.css es requerido
+*/
+
+@media only screen and (max-width: 940px) {
+    .container {
+      max-width: 940px;
+      width: unset;
+      margin: 0 1rem;
+    }
+    .row.pad_tabla {
+      width: unset;
+      display: flex;
+    }
+    .row.pad_tabla table {
+      /*! width: unset !important; */
+      margin: 0 !important;
+    }
+    .row.pad_tabla table tr {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .row.pad_tabla table tr div {
+      width: unset !important;
+      min-width: unset !important;
+      display: block;
+  /*! position: static !important; */
+  /*! height: unset; */
+      box-shadow: none;
+    }
+    .row.pad_tabla table .contenido {
+      width: 50%;
+    }
+    .banda-separacion {
+      display: none;
+    }
+    .mensajes.curva-a-d {
+      width: 50%;
+    }
+    .row.pad_tabla table .detalles tr {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+    tr .detalle {
+      width: unset !important;
+    }
+    .row.ali_centro.titulo.degradado {
+      width: unset !important;
+      margin: 0 !important;
+      box-shadow: none;
+    }
+    .span12.bg-fondo {
+      margin: 0;
+      display: flex;
+    }
+    .pull-left.span9:has(a) {
+      width: unset;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .bg_blanco.curva-a-i.curva-a-d.biselado > .row.pad_tabla {
+  /*     margin: 0 !important; */
+    }
+    .bg_blanco.curva-a-i.curva-a-d.biselado {
+      box-shadow: none;
+    }
+    .bg_blanco.curva-a-i.curva-a-d.biselado > .row.pad_tabla > table > tbody > tr {
+      display: flex;
+      flex-direction: column;
+    }
+    .row.pad_tabla table .detalles tr {
+      width: 100%;
+    }
+    .row.pad_tabla table .contenido {
+      width: 100%;
+      padding: 0;
+    }
+    .mensajes.curva-a-d {
+      width: 100%;
+      padding: 0;
+      border-radius: 0;
+    }
+    .mensajes.curva-a-d > div:first-child {
+      display: flex;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .mensajes.curva-a-d > div:first-child > div {
+      width: unset !important;
+      display: block;
+      margin: 0 !important;
+      flex: 1;
+    }
+    .mensajes.curva-a-d > div:first-child br {
+      display: none;
+    }
+    .mensajes.curva-a-d div:nth-of-type(2) div .span4.detalle {
+      display: flex;
+      justify-content: space-between;
+      padding: .5rem 1rem !important;
+      gap: 1rem;
+    }
+    .mensajes.curva-a-d div div .span4.detalle a.interes {
+      /*! display: flex; */
+      flex-direction: column;
+      height: unset;
+      flex: 1;
+    }
+    
+    .well.margen_b_10.pad.txt_mediana.msg_inicio {
+      max-width: unset;
+    }
+    
+    #contenedor_lateral {
+      display: flex;
+      flex-direction: column;
+      height: unset;
+    }
+    
+    #contenedor_lateral > div {
+      position: static !important;
+    }
+    
+    td.mensajes div.detalle {
+      padding: 1rem !important;
+    }
+    
+    .span8.titulo.degradado:has(.pull-left) {
+      display: flex;
+      justify-content: space-around
+    }
+    
+    .span8.titulo.degradado:has(.pull-left) > div {
+      padding: 0;
+      margin: 0;
+    }
+  }
+  

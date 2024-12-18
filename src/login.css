@@ -1,0 +1,25 @@
+/* 
+ * Estilo pagina de login
+ * https://www.epublibre.org/login/index
+ *
+ * El archivo epl_base.css es requerido
+*/
+
+@media only screen and (max-width: 750px) {  
+  .span8.offset2:has(div #login) {
+    margin: 0 1rem;
+    width: unset;
+    float: none
+  }
+  .span8.offset2:has(div #login) .control-label {
+    float: unset;
+    text-align: left;
+  }
+  .span8.offset2:has(div #login) .controls {
+    margin: 0;
+  }
+  .span8.offset2:has(div #login) .controls input[type="text"],
+  .span8.offset2:has(div #login) .controls input[type="password"] {
+    width: 100%;
+  }
+}

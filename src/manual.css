@@ -1,0 +1,23 @@
+/* 
+ * Estilo página de manual
+ * https://www.epublibre.org/manual/index
+ * 
+ * El archivo epl_base.css es requerido
+*/
+
+@media only screen and (max-width: 600px) {
+    .container .container-fluid .row-fluid .well.pad {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    
+    .container .container-fluid .row-fluid .well.pad .well_black.pad {
+      float: unset !important;
+      width: unset;
+      margin: 0 !important;
+    }
+    
+    .container .container-fluid .row-fluid .well.pad .pad {
+      margin: 0 !important;
+    }
+  }
