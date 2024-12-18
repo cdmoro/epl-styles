@@ -1,0 +1,29 @@
+@media only screen and (max-width: 500px) {
+  .det_titulo {
+    float: none;
+    white-space: wrap;
+  }
+  
+  .container > .row > .span12:nth-of-type(2) > .well .row-fluid:first-of-type {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .container .row .span12:nth-of-type(2) .well .row-fluid:first-of-type:before,
+  .container .row .span12:nth-of-type(2) .well .row-fluid:first-of-type:after {
+    content: none;
+  }
+  
+  .container .row .span12:nth-of-type(2) .well .row-fluid:first-of-type .well {
+    width: unset;
+    margin: 0 !important;
+  }
+  
+  .container .row .span12:nth-of-type(2) .well .row-fluid:first-of-type .span7 .row-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
