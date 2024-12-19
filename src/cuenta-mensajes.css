@@ -1,0 +1,84 @@
+form td a {
+  white-space: wrap;
+}
+@media only screen and (max-width: 940px) {
+  #paginador_recibidos,
+  #paginador_enviados {
+    width: unset !important;
+    float: none;
+  }
+  .tab-content.panel_mensajes {
+    padding: 0;
+  }
+  #cont_recibidos,
+  #cont_enviados {
+    overflow-x: auto;
+  }
+  #cont_recibidos th,
+  #cont_enviados th {
+    width: auto;
+  }
+  .panel_mensajes table tr td.ruled:nth-child(5) {
+    text-align: right;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .ali_derecha.pull-right {
+    float: none;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  .emails_cabecera {
+    display: none !important;
+  }
+  .panel_mensajes table tr {
+    display: grid;
+    grid-template-columns: min-content;
+    border-top: none;
+    border-color: #AAA;
+  }
+  .panel_mensajes table tr td.ruled {
+    grid-column: 2 / 4;
+    border: none;
+  }
+  .panel_mensajes table tr td.ruled:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1 / 4;
+  }
+  .panel_mensajes table tr td.ruled:nth-child(3) {
+    grid-column: 2 / 4;
+  }
+  .panel_mensajes table tr td.ruled:nth-child(4) {
+    grid-row: 3;
+    grid-column: 2;
+    opacity: .5;
+    font-size: .7rem
+  
+  
+  
+  
+  
+  
+  
+  }
+  .panel_mensajes table tr td.ruled:nth-child(5) {
+    grid-row: 3;
+    grid-column: 3;
+    text-align: right;
+  }
+  #cont_enviados table tr td.ruled:nth-child(2) {
+    grid-column: 2 / 3;
+  }
+  #cont_enviados table tr td.ruled:nth-child(6) {
+    grid-row: 1;
+    grid-column: 3;
+    text-align: right !important;
+  }
+  #cont_enviados table tr td.ruled:nth-child(6):before {
+    content: "Leído:";
+  }
+  #paginador_recibidos ul,
+  #paginador_enviados ul {
+    box-shadow: none;
+  }
+}

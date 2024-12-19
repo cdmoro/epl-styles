@@ -1,0 +1,27 @@
+@media only screen and (max-width: 940px) {
+  #nuevo iframe {
+    width: 100% !important;
+  }
+  
+  #appendedInputButton {
+    width: 300px;
+  }
+  
+  #txt_asunto {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #nuevo .control-label {
+    float: unset;
+    width: unset;
+    text-align: left;
+  }
+  #nuevo .controls {
+    margin: 0;
+  }
+  #nuevo .controls input[type="text"] {
+    width: 100%;
+  }
+}
