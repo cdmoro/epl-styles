@@ -1,0 +1,33 @@
+@media only screen and (max-width: 500px) {
+  .cab_detalle .row:first-of-type {
+    display: flex;
+    margin: 0;
+  /*! gap: 1rem; */
+  }
+  .cab_detalle .row:first-of-type:before,
+  .cab_detalle .row:first-of-type:after {
+    content: none;
+  }
+  .cab_detalle .row:first-of-type > div {
+    width: unset;
+    margin: 0;
+    float: none;
+  /*! flex: 1 auto; */
+  /*! min-width: 14px; */
+  }
+  tr:has(.contenido) {
+    display: flex;
+    flex-direction: column;
+  }
+  tr:has(.contenido) td {
+    width: 100%
+
+  }
+  tr:has(.contenido) .mensajes .titulo {
+    width: unset;
+    display: block;
+  }
+  .banda-separacion {
+    display: none;
+  }
+}
