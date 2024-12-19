@@ -31,6 +31,7 @@ Páginas cubiertas hasta el momento:
 1. Inicio (50%)
 1. Manuales
 1. Directorio
+1. Usuario
 
 # Progreso del proyecto
 
@@ -46,3 +47,4 @@ La versión Desktop se mantiene sin cambios
 |Inicio|50%|https://www.epublibre.org/inicio/index|<img src="https://github.com/user-attachments/assets/33f83e46-ed54-42fa-b994-d39c83386b41" height="350">|<img src="https://github.com/user-attachments/assets/bd461d9a-592b-4faf-9548-8e68f0a3a516" height="350">|![image](https://github.com/user-attachments/assets/afaf23af-ad0d-4c33-876a-369897fe7e53)|Página compleja, layout de tablet no está listo|
 |Manuales|100%|https://www.epublibre.org/manual/index|![image](https://github.com/user-attachments/assets/0ac96d15-4c69-4d7d-8d9d-6b74cd919a2b)|![image](https://github.com/user-attachments/assets/c7ebfb95-7ab4-46d2-a900-c71c4e3519d2)|![image](https://github.com/user-attachments/assets/8fb51fd3-1353-4929-a481-0a6f35fb807d)||
 |Directorio|100%|https://www.epublibre.org/directorio/index|<img src="https://github.com/user-attachments/assets/e18bd789-1ae9-462a-8e2b-fca531d9c2a5" height="250">|![image](https://github.com/user-attachments/assets/41a1c711-582d-4efb-986a-83e66a2f5d7d)|![image](https://github.com/user-attachments/assets/5c6bb100-b6ab-430d-b46d-66b1af846204)||
+|Usuario|100%|https://www.epublibre.org/usuario/cuenta||||
