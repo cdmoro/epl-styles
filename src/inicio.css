@@ -6,138 +6,152 @@
 */
 
 @media only screen and (max-width: 940px) {
-    .container {
-      max-width: 940px;
-      width: unset;
-      margin: 0 1rem;
-    }
-    .row.pad_tabla {
-      width: unset;
-      display: flex;
-    }
-    .row.pad_tabla table {
+  .container {
+    max-width: 940px;
+    width: unset;
+    margin: 0 1rem;
+  }
+  .row.pad_tabla {
+    width: unset;
+    display: flex;
+  }
+  .row.pad_tabla table {
       /*! width: unset !important; */
-      margin: 0 !important;
-    }
-    .row.pad_tabla table tr {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
-    .row.pad_tabla table tr div {
-      width: unset !important;
-      min-width: unset !important;
-      display: block;
-  /*! position: static !important; */
-  /*! height: unset; */
-      box-shadow: none;
-    }
-    .row.pad_tabla table .contenido {
-      width: 50%;
-    }
-    .banda-separacion {
-      display: none;
-    }
-    .mensajes.curva-a-d {
-      width: 50%;
-    }
-    .row.pad_tabla table .detalles tr {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
-    }
-    tr .detalle {
-      width: unset !important;
-    }
-    .row.ali_centro.titulo.degradado {
-      width: unset !important;
-      margin: 0 !important;
-      box-shadow: none;
-    }
-    .span12.bg-fondo {
-      margin: 0;
-      display: flex;
-    }
-    .pull-left.span9:has(a) {
-      width: unset;
-    }
+    margin: 0 !important;
   }
-  @media only screen and (max-width: 700px) {
-    .bg_blanco.curva-a-i.curva-a-d.biselado > .row.pad_tabla {
+  .row.pad_tabla table tr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: .5rem;
+  }
+  .row.pad_tabla table tr div {
+    width: unset !important;
+    min-width: unset !important;
+    display: block;
+    box-shadow: none;
+  }
+  .row.pad_tabla table .contenido {
+    width: 50%;
+  }
+  .banda-separacion {
+    display: none;
+  }
+  .mensajes.curva-a-d {
+    width: 50%;
+  }
+  .row.pad_tabla table .detalles tr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: .5rem;
+  }
+  tr .detalle {
+    width: unset !important;
+  }
+  .row.ali_centro.titulo.degradado {
+    width: unset !important;
+    margin: 0 !important;
+    box-shadow: none;
+  }
+  .span12.bg-fondo {
+    margin: 0;
+    display: flex;
+  }
+  .pull-left.span9:has(a) {
+    width: unset;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .bg_blanco.curva-a-i.curva-a-d.biselado div[style="position:absolute;z-index:2;top:-33px;right:-25px;"] {
+    overflow: hidden;
+    right: -16px !important;
+  }
+  .bg_blanco.curva-a-i.curva-a-d.biselado div[style="position:absolute;z-index:2;top:-33px;right:-25px;"] img {
+    position: relative;
+    left: 9px;
+  }
+  td.contenido div:first-child div.titulo {
+    margin-top: 124px;
+    border-radius: 0;
+  }
+  td.contenido div div.titulo {
+    padding: .75rem 1rem;
+  }
+  .bg_blanco.curva-a-i.curva-a-d.biselado > .row.pad_tabla {
   /*     margin: 0 !important; */
-    }
-    .bg_blanco.curva-a-i.curva-a-d.biselado {
-      box-shadow: none;
-    }
-    .bg_blanco.curva-a-i.curva-a-d.biselado > .row.pad_tabla > table > tbody > tr {
-      display: flex;
-      flex-direction: column;
-    }
-    .row.pad_tabla table .detalles tr {
-      width: 100%;
-    }
-    .row.pad_tabla table .contenido {
-      width: 100%;
-      padding: 0;
-    }
-    .mensajes.curva-a-d {
-      width: 100%;
-      padding: 0;
-      border-radius: 0;
-    }
-    .mensajes.curva-a-d > div:first-child {
-      display: flex;
-      gap: 1rem;
-      padding: 1rem;
-    }
-    .mensajes.curva-a-d > div:first-child > div {
-      width: unset !important;
-      display: block;
-      margin: 0 !important;
-      flex: 1;
-    }
-    .mensajes.curva-a-d > div:first-child br {
-      display: none;
-    }
-    .mensajes.curva-a-d div:nth-of-type(2) div .span4.detalle {
-      display: flex;
-      justify-content: space-between;
-      padding: .5rem 1rem !important;
-      gap: 1rem;
-    }
-    .mensajes.curva-a-d div div .span4.detalle a.interes {
-      /*! display: flex; */
-      flex-direction: column;
-      height: unset;
-      flex: 1;
-    }
-    
-    .well.margen_b_10.pad.txt_mediana.msg_inicio {
-      max-width: unset;
-    }
-    
-    #contenedor_lateral {
-      display: flex;
-      flex-direction: column;
-      height: unset;
-    }
-    
-    #contenedor_lateral > div {
-      position: static !important;
-    }
-    
-    td.mensajes div.detalle {
-      padding: 1rem !important;
-    }
-    
-    .span8.titulo.degradado:has(.pull-left) {
-      display: flex;
-      justify-content: space-around
-    }
-    
-    .span8.titulo.degradado:has(.pull-left) > div {
-      padding: 0;
-      margin: 0;
-    }
   }
+  .bg_blanco.curva-a-i.curva-a-d.biselado {
+    box-shadow: none;
+  }
+  .bg_blanco.curva-a-i.curva-a-d.biselado > .row.pad_tabla > table > tbody > tr {
+    display: flex;
+    flex-direction: column;
+  }
+  .row.pad_tabla table .detalles tr {
+    width: 100%;
+  }
+  .row.pad_tabla table .contenido {
+    width: 100%;
+    padding: 0;
+  }
+  .mensajes.curva-a-d {
+    width: 100%;
+    padding: 0;
+    border-radius: 0;
+  }
+  .mensajes.curva-a-d > div:first-child {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    padding: 1rem !important;
+    height: unset !important;
+    left: 0;
+    right: 0;
+  }
+  .mensajes.curva-a-d > div:first-child > div {
+    width: unset !important;
+    display: block;
+    margin: 0 !important;
+    flex: 1;
+  }
+  .mensajes.curva-a-d > div:first-child br {
+    display: none;
+  }
+  .mensajes.curva-a-d div:nth-of-type(2) div .span4.detalle {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 1rem !important;
+    gap: 1rem;
+  }
+  .mensajes.curva-a-d div div .span4.detalle a.interes {
+      /*! display: flex; */
+    flex-direction: column;
+    height: unset;
+    flex: 1;
+  }
+  .well.margen_b_10.pad.txt_mediana.msg_inicio {
+    max-width: unset;
+  }
+  #contenedor_lateral {
+    display: flex;
+    flex-direction: column;
+    height: unset;
+  }
+  #contenedor_lateral > div {
+    position: static !important;
+  }
+  td.mensajes div.detalle {
+    padding: 1rem !important;
+  }
+  .span8.titulo.degradado:has(.pull-left) {
+    display: flex;
+    justify-content: space-around
+    
   
+  
+  }
+  .span8.titulo.degradado:has(.pull-left) > div {
+    padding: 0;
+    margin: 0;
+  }
+}
