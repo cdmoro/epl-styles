@@ -55,6 +55,7 @@
   }
   
     .mensajes .span4.pad_similar.txt_pequena {
+  width: unset;
   }
   .mensajes > div:nth-of-type(2) > div > .span4.pad_similar.txt_pequena {
     grid-template-columns: repeat(5, 1fr);
