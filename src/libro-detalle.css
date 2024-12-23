@@ -111,9 +111,7 @@
     flex-direction: column;
   }
   tr:has(.contenido) td {
-    width: 100%
-
-  
+    width: 99%;
   }
   tr:has(.contenido) .mensajes .titulo {
     width: unset;
