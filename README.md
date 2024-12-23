@@ -51,12 +51,3 @@ La versión Desktop se mantiene sin cambios y se usa solo como referencia
 ||[usuario/cuenta/informes_erratas](https://www.epublibre.org/usuario/cuenta/informes_erratas)|
 ||[usuario/cuenta/comentarios](https://www.epublibre.org/usuario/cuenta/comentarios)|
 ||[usuario/busqueda_titulos](https://www.epublibre.org/usuario/busqueda_titulos)|
-
-## Autor
-
-|Página| Mobile (428px) | Tablet (810px) | Desktop (940px) | Estilo adicional | Observaciones |
-|:---|:---|:---|:---|:---|:---|
-|[autor/index/:id](https://www.epublibre.org/autor/index/34039)|[image](https://github.com/user-attachments/assets/0688817f-ecd7-4d89-b08f-0a333f853ad8)|[image](https://github.com/user-attachments/assets/4b95f5e6-a969-4a02-86f1-ac294ed1f24f)|[image](https://github.com/user-attachments/assets/e8a895f9-029f-40cc-a083-24ed06d617bb)|||
-
-
-
