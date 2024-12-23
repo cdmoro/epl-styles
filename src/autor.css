@@ -38,6 +38,19 @@
   }
 }
 @media only screen and (max-width: 600px) {
+  .cont-datos-col {
+    padding-top: .5rem;
+  }
+  .cont-datos-col > div:first-of-type{
+    font-size: .6rem;
+    min-height: unset;
+    margin-bottom: .3rem !important;
+  }
+    .cont-datos-col > div:nth-of-type(2){
+    font-size: .7rem;
+      padding: 0 10px;
+    background: none;
+  }
   .bg_blanco > .pad_tabla > table:first-of-type > tbody > tr:first-child {
     display: flex;
     flex-direction: column;
@@ -64,5 +77,17 @@
   }
   .btn-enlaces div {
     margin: 0;
+  }
+  td.pad_l_2:has(img) {
+    width: 40px;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  td.pad_l_2:has(img) img {
+    margin-left: .25rem;
+  }
+  td.negrita.pad_l_2:has(a) {
+    text-align: left;
   }
 }
