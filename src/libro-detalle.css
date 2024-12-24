@@ -149,4 +149,8 @@
   td.contenido {
     max-width: unset !important;
   }
+  .ampl-portada {
+   width: 100vw; 
+   height: auto;
+  }
 }
