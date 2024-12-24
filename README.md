@@ -38,7 +38,7 @@ La versión Desktop se mantiene sin cambios y se usa solo como referencia
 |__INICIO__|[inicio/index](https://www.epublibre.org/inicio/index)|[image](https://github.com/user-attachments/assets/2f612411-72ca-4cbc-83e4-8254e93771ea)|[image](https://github.com/user-attachments/assets/bd461d9a-592b-4faf-9548-8e68f0a3a516)|[image](https://github.com/user-attachments/assets/afaf23af-ad0d-4c33-876a-369897fe7e53)|
 ||[inicio/sobrecarga](https://www.epublibre.org/inicio/sobrecarga)|
 |__MANUAL__|[manual/index](https://www.epublibre.org/manual/index)|[image](https://github.com/user-attachments/assets/0ac96d15-4c69-4d7d-8d9d-6b74cd919a2b)|[image](https://github.com/user-attachments/assets/c7ebfb95-7ab4-46d2-a900-c71c4e3519d2)|[image](https://github.com/user-attachments/assets/8fb51fd3-1353-4929-a481-0a6f35fb807d)|
-|__LIBRO__|[libro/detalle/[id]](https://www.epublibre.org/libro/detalle/19293)|[image](https://github.com/user-attachments/assets/e53823ad-956b-4c52-b46a-4bc7c6335ffd)|[image](https://github.com/user-attachments/assets/bd4d284b-a190-463e-86e4-b755d140f581)|[image](https://github.com/user-attachments/assets/b71048dc-35c4-45c4-ac14-60d5017997d2)|
+|__LIBRO__|[libro/detalle/[id]](https://www.epublibre.org/libro/detalle/19293)|[image](https://github.com/user-attachments/assets/70ae847b-f15e-4457-b42d-dfe7ccc4d466)|[image](https://github.com/user-attachments/assets/f51d4072-4413-47dc-891c-24007f46a07c)|[image](https://github.com/user-attachments/assets/b3e8ddbe-34a8-40a1-b6de-716dcabaf052)|
 |__USUARIO__|[usuario/cuenta](https://www.epublibre.org/usuario/cuenta)|
 ||[usuario/cuenta/mis_datos](https://www.epublibre.org/usuario/cuenta/mis_datos)|
 ||[usuario/cuenta/lecturas](https://www.epublibre.org/usuario/cuenta/lecturas)|
