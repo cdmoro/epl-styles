@@ -21,8 +21,16 @@
     flex-grow: 1;
     padding-bottom: 0;
   }
+  .cab_detalle > .row .span8 > .well_black {
+    display: flex;
+    gap: 1rem;
+  }
+  .cab_detalle > .row .span8 > .well_black > div:first-of-type {
+    flex: 1;
+  }
   .cab_detalle > .row .span8 div.txt_blanco:nth-of-type(1) {
     margin-bottom: 13px;
+    padding: .5rem .5rem .1rem;
   }
   .cab_detalle > .row .span8 div.txt_blanco:nth-of-type(2) div:first-of-type {
     width: unset !important;
@@ -58,6 +66,21 @@
     margin: 0;
     display: block !important;
   }
+  
+  td.contenido {
+    max-width: 500px !important;
+  }
+  .ali_justi > span {
+    overflow: hidden;
+    display: inline-block;
+    max-width: 90vw;
+    width: 100%;
+  }
+  
+  .ali_justi table.negrita td {
+    text-align: left;
+    /*! display: inline; */
+  }
 }
 @media only screen and (max-width: 650px) {
   .cab_detalle > .row {
@@ -91,6 +114,8 @@
   }
   #portada {
     width: 100%;
+    position: relative;
+    top: -25%;
   }
   .cab_detalle .row:first-of-type > div:last-of-type {
     flex-basis: 100%;
@@ -109,9 +134,10 @@
   tr:has(.contenido) {
     display: flex;
     flex-direction: column;
+    /*! width: 100%; */
   }
-  tr:has(.contenido) td {
-    width: 99%;
+  tr:has(.contenido) > td {
+    width: 100%;
   }
   tr:has(.contenido) .mensajes .titulo {
     width: unset;
@@ -119,5 +145,8 @@
   }
   .banda-separacion {
     display: none;
+  }
+  td.contenido {
+    max-width: unset !important;
   }
 }
