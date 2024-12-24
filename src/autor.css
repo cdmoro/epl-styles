@@ -39,6 +39,10 @@
   td.mensajes div.detalle {
     width: unset;
   }
+  
+  td.contenido div.detalle > table[width="100%"] table td:has(img.sprite) {
+    width: 18px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .cont-datos-col {
