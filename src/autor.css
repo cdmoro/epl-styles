@@ -36,6 +36,9 @@
     width: unset;
     display: block;
   }
+  td.mensajes div.detalle {
+    width: unset;
+  }
 }
 @media only screen and (max-width: 600px) {
   .cont-datos-col {
@@ -89,5 +92,19 @@
   }
   td.negrita.pad_l_2:has(a) {
     text-align: left;
+  }
+  
+  td.contenido div.detalle > table[width="100%"] > tbody > tr {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  td.contenido div.detalle > table[width="100%"] > tbody > tr > td[width="25%"] {
+    width: 100%;
+    padding-bottom: .75rem;
+  }
+    td.contenido div.detalle > table[width="100%"] > tbody > tr > td[width="25%"] div {
+    padding: 0;
+      text-align: left;
   }
 }
