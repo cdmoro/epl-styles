@@ -2,8 +2,8 @@
  * Estilos comunes para layout responsive de EPL 
  *
  * Instrucciones
- * - Agregar el siguiente tag en el head de la pÃ¡gina <meta name="viewport" content="width=device-width, initial-scale=1"> 
- * - Agregar este archivo en cada pÃ¡gina
+ * - Agregar el siguiente tag en el head de la página <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ * - Agregar este archivo en cada página
  * 
  * Elementos
  * - LOGIN HEADER: .container .row:nth-of-type(1)
@@ -95,6 +95,7 @@
   .container .row:nth-of-type(2) .span6 {
     width: unset
     
+  
   }
   .container {
     max-width: 940px;
@@ -186,10 +187,9 @@
     border-radius: 0;
   }
   .span2.margen_b_5 {
-    margin-left: 0;
     display: block;
     width: 100%;
-    margin: 0 10px;
+    margin: 0 10px 5px;
   }
   .span2.margen_b_5 .pad_t {
     padding: 0;
