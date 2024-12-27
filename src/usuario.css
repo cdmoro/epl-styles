@@ -18,6 +18,7 @@
   }
   .span12 > .well:nth-of-type(1) .row-fluid > div {
     width: unset;
+    flex: 1;
   }
   .span12 > .well:nth-of-type(1) > .row-fluid .row-fluid .span11 .pad_5 {
     padding: 0;
