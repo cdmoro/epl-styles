@@ -1,26 +1,99 @@
+@media only screen and (max-width: 940px) {
+  .span12 > .well {
+    border-radius: 0;
+    margin: 0;
+    box-shadow: none;
+    border-color: #AAA;
+  }
+  .span12 > .well:nth-of-type(1) {
+    padding-bottom: 0;
+  }
+  .span12 > .well:nth-of-type(1) > .row-fluid {
+    display: flex;
+    justify-content: space-between;
+  }
+  .span12 > .well:nth-of-type(1) .row-fluid:before,
+  .span12 > .well:nth-of-type(1) .row-fluid:after {
+    content: none;
+  }
+  .span12 > .well:nth-of-type(1) .row-fluid > div {
+    width: unset;
+  }
+  .span12 > .well:nth-of-type(1) > .row-fluid .row-fluid .span11 .pad_5 {
+    padding: 0;
+    display: flex;
+    gap: 5px;
+    margin-top: .25rem;
+  }
+  .span12 > .well:nth-of-type(1) > .row-fluid .row-fluid .span11 .pad_5 .et_rol {
+    margin: 0;
+    align-content: center;
+    padding: 3px 5px;
+  }
+  .span12 > .well:nth-of-type(1) > .row-fluid .row-fluid .span11 .pad_5 .label {
+    padding: 3px 7px;
+    align-content: center;
+  }
+  .breadcrumb {
+    margin-bottom: .75rem;
+  }
+  .row-fluid > .well {
+    margin-bottom: .75rem;
+    padding: .75rem !important;
+  }
+  .span7.well .row-fluid,
+  .span5.well .row-fluid {
+    display: flex;
+    flex-wrap: wrap !important;
+    gap: 2% !important;
+    flex-direction: row !important;
+  }
+  .span7.well .row-fluid:before,
+  .span7.well .row-fluid:after,
+  .span5.well .row-fluid:before,
+  .span5.well .row-fluid:after {
+    content: none;
+  }
+  .span7.well .row-fluid div,
+  .span5.well .row-fluid div {
+    width: auto;
+    flex-basis: 49%;
+    margin: 0;
+  }
+  .span7.well .row-fluid div:last-child p:last-child,
+  .span5.well .row-fluid div:last-child p:last-child {
+    margin: 0;
+  }
+}
 @media only screen and (max-width: 500px) {
+  .span12 > .well:nth-of-type(1) .btn-toolbar {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: end;
+  }
+  .span12 > .well:nth-of-type(1) .btn-toolbar .btn-group {
+    margin: 0;
+  }
   .det_titulo {
     float: none;
     white-space: wrap;
+    margin-top: 0 !important;
   }
-  
   .container > .row > .span12:nth-of-type(2) > .well .row-fluid:first-of-type {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 1rem;
   }
-  
   .container .row .span12:nth-of-type(2) .well .row-fluid:first-of-type:before,
   .container .row .span12:nth-of-type(2) .well .row-fluid:first-of-type:after {
     content: none;
   }
-  
   .container .row .span12:nth-of-type(2) .well .row-fluid:first-of-type .well {
     width: unset;
     margin: 0 !important;
   }
-  
   .container .row .span12:nth-of-type(2) .well .row-fluid:first-of-type .span7 .row-fluid {
     display: flex;
     flex-direction: row;
