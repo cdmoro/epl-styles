@@ -122,4 +122,7 @@
   .dropdown-submenu:hover > a [class^="icon-"] {
     filter: invert(0);
   }
+  a img[src="../img/ex_libris150x150.png"] {
+    filter: invert(.5);
+  }
 }
