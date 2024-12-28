@@ -84,37 +84,42 @@
   }
   .label,
   .badge {
-    color: #eee;
+    color: #333;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    background-color: rgba(108,117,125,1);
+    background-color: #888;
   }
-  div.similares {
-    background: transparent;
+  legend {
+    color: #eee;
   }
-  textarea,
-  input[type="text"],
-  input[type="password"],
-  input[type="datetime"],
-  input[type="datetime-local"],
-  input[type="date"],
-  input[type="month"],
-  input[type="time"],
-  input[type="week"],
-  input[type="number"],
-  input[type="email"],
-  input[type="url"],
-  input[type="search"],
-  input[type="tel"],
-  input[type="color"],
-  .uneditable-input {
+  .well_black {
+    background: #000;
+  }
+  .pagination ul > li > a,
+  .pagination ul > li > span {
+    background-color: #333;
+    border: 1px solid #555;
+  }
+  .pagination ul > .active > a,
+  .pagination ul > .active > span {
+    color: #999999;
+  }
+  .pagination ul > li > a:hover,
+  .pagination ul > .active > a,
+  .pagination ul > .active > span {
     background-color: #222;
-    border-color: #495057;
-    color: #dee2e6;
   }
-  .alert-success {
-    color: #75b798;
-    background-color: #051b11;
-    border-color: #0f5132;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  .dropdown-menu {
+    background-color: #111;
+  }
+  .dropdown-menu a {
+    color: #eee;
+  }
+  .dropdown-menu a [class^="icon-"] {
+    filter: invert(1);
+  }
+  .dropdown-menu li > a:hover [class^="icon-"],
+  .dropdown-menu li > a:focus [class^="icon-"],
+  .dropdown-submenu:hover > a [class^="icon-"] {
+    filter: invert(0);
   }
 }
