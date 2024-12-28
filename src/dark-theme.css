@@ -1,7 +1,10 @@
+/* 
+ * Variante dark para EPL
+*/
 @media (prefers-color-scheme: dark) {
   body {
     color: #EEE;
-    background: #222;
+    background: #111;
   }
   .bg-fondo {
     background: #222;
@@ -75,5 +78,8 @@
   .slider #rating,
   .slider #fecha {
     box-shadow: inset 2px 2px 2px 3px rgba(0, 0, 0, 0.5);
+  }
+  .cab_detalle {
+    background: #444;
   }
 }
