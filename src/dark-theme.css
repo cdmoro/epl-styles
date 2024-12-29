@@ -236,13 +236,13 @@
         color: #dee2e6;
     }
     .alert {
-        color: var(--bs-alert-color);
-        background-color: var(--bs-alert-bg);
-        border-color: var(--bs-alert-border-color);
+        color: var(--bs-alert-color, #ffda6a);
+        background-color: var(--bs-alert-bg, #332701);
+        border-color: var(--bs-alert-border-color, #997404);
         text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
     }
     .alert a {
-        color: var(--bs-alert-link-color);
+        color: var(--bs-alert-link-color, #ffda6a);
     }
     .alert-success {
         --bs-alert-color: #75b798;
@@ -373,5 +373,18 @@
     .table th,
     .table td {
         border-top-color: var(--color-bg-secondary);
+    }
+    .emails_cabecera {
+	   background-color: var(--color-bg-secondary);
+    }
+    table th, table td {
+        color: var(--font-color);
+    }
+    td.mensaje1 {
+	   color: var(--font-color);
+    }
+    .table-hover tbody tr:hover td,
+    .table-hover tbody tr:hover th {
+	   background-color: var(--color-bg-tertiary);
     }
 }
