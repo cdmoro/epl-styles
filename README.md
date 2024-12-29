@@ -1,8 +1,21 @@
 # epl-styles
 
-Este proyecto tiene la finalidad de implementar un diseño responsive y una variante dark (tema oscuro) a la página actual de EPL https://www.epublibre.org
+Este proyecto tiene la finalidad de implementar un diseño responsive y una variante oscura (dark theme) a la página actual de EPL https://www.epublibre.org
 
-nota: los archivos CSS usados en este proyecto sobreescriben los estilos actuales de Bootstrap.
+<!--
+# Diseño responsive
+
+| Mobile (`428px`) | Tablet (`810px`) | Desktop (`940px`) |
+|:---|:---|:---|
+|||
+-->
+
+# Temas
+
+|Claro|Oscuro|
+|:---|:---|
+|![image](https://github.com/user-attachments/assets/8cd5b069-54e6-484d-ba17-0194b59586c3)|![image](https://github.com/user-attachments/assets/e019ef36-8104-472b-857c-3c0a19e292fa)|
+
 
 # Instrucciones
 
@@ -11,6 +24,8 @@ Instrucciones para implentar estos estilos en la web de EPL, en cada página:
 1. Agregar `<meta name="viewport" content="width=device-width, initial-scale=1">` en el `head`
 2. Agregar el archivo [epl_base.css](src/epl_base.css), ya que contiene estilos comunes a todas las páginas
 3. Agregar el archivo correspondiente a cada página
+
+> nota: los archivos CSS usados en este proyecto sobreescriben los estilos actuales de Bootstrap.
 
 ## Probar los estilos en vivo
 
@@ -24,7 +39,7 @@ Para hacer pruebas rápidas se pueden usar dos extensiones:
 
 La versión Desktop se mantiene sin cambios y se usa solo como referencia.
 
-| Vista | Página | Mobile (428px) | Tablet (810px) | Desktop (940px) | Desktop dark |
+| Vista | Página | Mobile (`428px`) | Tablet (`810px`) | Desktop (`940px`) | Desktop dark |
 |:---|:---|:---|:---|:---|:---|
 |__ACCESO__|[acceso/login](https://www.epublibre.org/acceso/login)|[image](https://github.com/user-attachments/assets/3306c135-b9fc-4a01-a12c-cafd12ca3273)|[image](https://github.com/user-attachments/assets/a8e7cfc1-75be-4d95-b4c5-9b67891af66b)|[image](https://github.com/user-attachments/assets/e4ee8efa-d58d-43ae-a7ed-3d76fa0fa55b)|[image](https://github.com/user-attachments/assets/3343bc32-86e5-47da-812c-79531ded077d)|
 ||[acceso/solicitar](https://www.epublibre.org/acceso/solicitar)|[image](https://github.com/user-attachments/assets/23fa04d8-c0c9-43b4-ac81-32fc5b917e68)|[image](https://github.com/user-attachments/assets/2e080616-f7f2-4c31-89b6-743d40aae4ea)|[image](https://github.com/user-attachments/assets/3b0950cf-38f8-43cd-a4c3-b85c819f99c5)||
