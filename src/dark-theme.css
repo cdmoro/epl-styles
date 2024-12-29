@@ -387,4 +387,44 @@
     .table-hover tbody tr:hover th {
 	   background-color: var(--color-bg-tertiary);
     }
+    .e_rojo {
+        background-color: #ea868f;
+        color: #2c0b0e;
+    }
+    .e_rojo_int {
+        color: #ea868f;
+        background: #2c0b0e;
+    }
+    .e_rojo_int a, .e_rojo_int a:hover {
+        color: #ea868f;
+    }
+    .e_verde {
+        background-color: #75b798;
+        color: #051b11;
+    }
+    .e_verde_int {
+        color: #75b798;
+        background-color: #051b11;
+    }
+    .e_verde_int a, .e_verde_int a:hover {
+        color: #75b798;
+    }
+    .e_azul {
+        color: #031633;
+        background-color: #6ea8fe;
+    }
+    .e_azul_int {
+        background: #031633;
+        color: #6ea8fe;
+    }
+    .e_azul_int a, .e_azul_int a:hover {
+        color: #6ea8fe;
+    }
+    .e_azul .txt_verde {
+        color: #0f5132;
+    }
+    .e_bar_no_selec {
+       background: linear-gradient(to bottom, #0f5132 0%,#23a400 44%,#0f5132 100%);
+       color: var(--font-color);
+    }
 }
