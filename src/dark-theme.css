@@ -258,16 +258,17 @@
         background-color: var(--color-bg-secondary);
     }
     .dropdown-menu {
-        background-color: var(--color-bg-primary);
+        background-color: var(--color-bg-secondary);
     }
     .dropdown-menu a {
         color: var(--font-color);
     }
-    .dropdown-menu a [class^="icon-"] {
+    .dropdown-menu a [class^="icon-"],
+    .dropdown-submenu:focus > a [class^="icon-"],
+    .dropdown-menu li > a:focus [class^="icon-"] {
         filter: invert(1);
     }
     .dropdown-menu li > a:hover [class^="icon-"],
-    .dropdown-menu li > a:focus [class^="icon-"],
     .dropdown-submenu:hover > a [class^="icon-"] {
         filter: invert(0);
     }
