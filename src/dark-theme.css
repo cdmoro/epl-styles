@@ -397,6 +397,7 @@
     }
     .e_rojo_int a, .e_rojo_int a:hover {
         color: #ea868f;
+        text-decoration: underline;
     }
     .e_verde {
         background-color: #75b798;
@@ -408,6 +409,7 @@
     }
     .e_verde_int a, .e_verde_int a:hover {
         color: #75b798;
+        text-decoration: underline;
     }
     .e_azul {
         color: #031633;
@@ -419,6 +421,7 @@
     }
     .e_azul_int a, .e_azul_int a:hover {
         color: #6ea8fe;
+        text-decoration: underline;
     }
     .e_azul .txt_verde {
         color: #0f5132;
