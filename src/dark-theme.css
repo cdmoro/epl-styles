@@ -2,16 +2,22 @@
  * Variante dark para EPL
 */
 @media (prefers-color-scheme: dark) {
+  :root {
+    --font-color: #fff;
+    --color-bg-primary: #111;
+    --color-bg-secondary: #222;
+    --color-bg-tertiary: #333;
+    --color-bg-quaternary: #444;
+  }
   body {
-    --font-color: #FFF;
     color: var(--font-color);
-    background: #111;
+    background: var(--color-bg-primary);
   }
   .bg-fondo {
-    background: #111;
+    background: var(--color-bg-primary);
   }
   .bg_blanco {
-    background: #222;
+    background: var(--color-bg-secondary);
   }
   div.biselado {
     box-shadow: inset 0 0 3px 3px rgb(0, 0, 0);
@@ -27,13 +33,13 @@
     filter: invert(.9);
   }
   td.banda-separacion {
-    background: linear-gradient(90deg, #000 30%, #333 80%);
+    background: linear-gradient(90deg, #000 30%, var(--color-bg-tertiary) 80%);
   }
   td.mensajes {
     vertical-align: top;
     width: 33%;
     color: var(--font-color);
-    background: #333;
+    background: var(--color-bg-tertiary);
     border-bottom: 1px solid #000;
   }
   td.mensajes div.titulo {
@@ -41,12 +47,12 @@
     box-shadow: 1px 0 0 rgb(0, 0, 0);
   }
   .well {
-    background: #222;
-    border-color: #333;
+    background: var(--color-bg-secondary);
+    border-color: var(--color-bg-tertiary);
     color: var(--font-color);
   }
   .well-gray {
-    background-color: #333;
+    background-color: var(--color-bg-tertiary);
   }
   .well-success {
     background-color: #051b11;
@@ -57,10 +63,10 @@
     border-color: #087990;
   }
   div.port_activa {
-    background: #333;
+    background: var(--color-bg-tertiary);
   }
   a.interes {
-    background-color: #222;
+    background-color: var(--color-bg-secondary);
     color: var(--font-color);
   }
   .btn {
@@ -148,11 +154,11 @@
   }
   .contador-gral {
     color: var(--font-color);
-    border-color: #222;
-    background: #111;
+    border-color: var(--color-bg-secondary);
+    background: var(--color-bg-primary);
   }
   .slider {
-    background: #111;
+    background: var(--color-bg-primary);
     box-shadow: inset 0 0 2px 3px rgb(0, 0, 0);
   }
   .slider #cont_detalles {
@@ -166,11 +172,11 @@
     box-shadow: inset 2px 2px 2px 3px rgba(0, 0, 0, 0.5);
   }
   .cab_detalle {
-    background: #444;
+    background: var(--color-bg-quaternary);
   }
   .label,
   .badge {
-    color: #333;
+    color: var(--color-bg-tertiary);
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     background-color: #888;
   }
@@ -209,7 +215,7 @@
   input[type="tel"],
   input[type="color"],
   .uneditable-input {
-    background-color: #222;
+    background-color: var(--color-bg-secondary);
     border-color: #495057;
     color: #dee2e6;
   }
@@ -227,7 +233,7 @@
   }
   .pagination ul > li > a,
   .pagination ul > li > span {
-    background-color: #333;
+    background-color: var(--color-bg-tertiary);
     border: 1px solid #555;
   }
   .pagination ul > .active > a,
@@ -237,10 +243,10 @@
   .pagination ul > li > a:hover,
   .pagination ul > .active > a,
   .pagination ul > .active > span {
-    background-color: #222;
+    background-color: var(--color-bg-secondary);
   }
   .dropdown-menu {
-    background-color: #111;
+    background-color: var(--color-bg-primary);
   }
   .dropdown-menu a {
     color: var(--font-color);
@@ -257,7 +263,7 @@
     filter: invert(.5);
   }
   .breadcrumb {
-    background-color: #222;
+    background-color: var(--color-bg-secondary);
     color: var(--font-color);
   }
   .breadcrumb li {
@@ -273,11 +279,11 @@
     filter: invert(1);
   }
   .mensajes a .avatar50.borde-portada {
-    background-color: #333;
+    background-color: var(--color-bg-tertiary);
     background-blend-mode: color-burn;
   }
   .cab_detalle a .avatar50.borde-portada {
-    background-color: #444;
+    background-color: var(--color-bg-quaternary);
     background-blend-mode: color-burn;
   }
   .borde-inf-claro {
