@@ -14,8 +14,7 @@ Este proyecto tiene la finalidad de implementar un diseño responsive y una vari
 
 |Claro|Oscuro|
 |:---|:---|
-|![image](https://github.com/user-attachments/assets/8cd5b069-54e6-484d-ba17-0194b59586c3)|![image](https://github.com/user-attachments/assets/e019ef36-8104-472b-857c-3c0a19e292fa)|
-
+|![image](https://github.com/user-attachments/assets/d57c445a-4e2e-4c02-95bf-341d1c1f7231)|![image](https://github.com/user-attachments/assets/7bdb67e0-9bea-42da-a83b-815b1bf81ff4)|
 
 # Instrucciones
 
