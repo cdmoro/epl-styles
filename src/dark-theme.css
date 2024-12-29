@@ -430,4 +430,7 @@
        background: linear-gradient(to bottom, #0f5132 0%,#23a400 44%,#0f5132 100%);
        color: var(--font-color);
     }
+    #login .icon-exclamation-sign {
+	    filter: invert(1);
+    }
 }
