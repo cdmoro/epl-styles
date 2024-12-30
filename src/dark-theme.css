@@ -243,6 +243,7 @@
   }
   .alert a {
     color: var(--bs-alert-link-color, #ffda6a);
+    text-decoration: underline;
   }
   .alert-success {
     --bs-alert-color: #75b798;
@@ -438,9 +439,6 @@
     filter: invert(1);
   }
   .disclaimer {
-    background: var(--color-bg-secondary);
-  }
-  .disclaimer .ali_centro.negrita {
     background: var(--color-bg-secondary);
   }
 }
