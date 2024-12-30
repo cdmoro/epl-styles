@@ -3,7 +3,7 @@
     border-radius: 0;
     margin: 0;
     box-shadow: none;
-    border-color: #AAA;
+    border-color: transparent;
   }
   .span12 > .well:nth-of-type(1) {
     padding-bottom: 0;
@@ -11,9 +11,6 @@
   .span12 > .well:nth-of-type(1) > .row-fluid {
     display: flex;
     justify-content: space-between;
-  }
-  .span12 > .well:nth-of-type(1) > .row-fluid > .span7:has(.btn-toolbar) {
-    margin: 0;
   }
   .span12 > .well:nth-of-type(1) .row-fluid:before,
   .span12 > .well:nth-of-type(1) .row-fluid:after {
@@ -70,14 +67,9 @@
   }
 }
 @media only screen and (max-width: 500px) {
-  .span12 > .well:nth-of-type(1) > .row-fluid {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
   .span12 > .well:nth-of-type(1) .btn-toolbar {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 5px;
     align-items: end;
   }
@@ -85,7 +77,9 @@
     margin: 0;
   }
   .det_titulo {
+    float: none;
     white-space: wrap;
+    margin-top: 0 !important;
   }
   .container > .row > .span12:nth-of-type(2) > .well .row-fluid:first-of-type {
     display: flex;
@@ -106,9 +100,9 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .span12 > .well:nth-of-type(1) .row-fluid > div {
+  
+    .span12 > .well:nth-of-type(1) .row-fluid > div {
     width: unset;
-    flex: 1;
-    /*! float: none; */
+    flex-basis: 49%;
   }
 }
