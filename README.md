@@ -2,13 +2,11 @@
 
 Este proyecto tiene la finalidad de implementar un diseño responsive y una variante oscura (dark theme) a la página actual de EPL https://www.epublibre.org
 
-<!--
 # Diseño responsive
 
 | Mobile (`428px`) | Tablet (`810px`) | Desktop (`940px`) |
 |:---|:---|:---|
-|||
--->
+|<img height="250px" src="https://github.com/user-attachments/assets/0dd674a7-26bf-4f59-98da-b2c9f7d8c91a">|<img height="250px" src="https://github.com/user-attachments/assets/aae5eb98-16c9-4be2-a18c-304b58214b67">|<img height="250px" src="https://github.com/user-attachments/assets/6ccda961-5659-4ddb-a88f-acff4d168d9e">|
 
 # Temas
 
@@ -34,7 +32,7 @@ Para hacer pruebas rápidas se pueden usar dos extensiones:
 - Meta Viewport Adder para agregar automáticamente el meta tag `viewport` (https://addons.mozilla.org/en-US/firefox/addon/meta-viewport-adder/)
 - Stylus para agregar por defecto los estilos necesarios, el base y el específico para cada página (https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 
-# Paginas
+# Progreso
 
 La versión Desktop se mantiene sin cambios y se usa solo como referencia.
 
