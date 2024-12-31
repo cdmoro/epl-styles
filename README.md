@@ -63,4 +63,4 @@ La versión Desktop se mantiene sin cambios y se usa solo como referencia. No to
 ||[usuario/cuenta/premios](https://www.epublibre.org/usuario/cuenta/premios)||
 ||[usuario/cuenta/informes_erratas](https://www.epublibre.org/usuario/cuenta/informes_erratas)||
 ||[usuario/cuenta/comentarios](https://www.epublibre.org/usuario/cuenta/comentarios)||
-||[usuario/busqueda_titulos](https://www.epublibre.org/usuario/busqueda_titulos)||
+||[usuario/busqueda_titulos](https://www.epublibre.org/usuario/busqueda_titulos)|[image](https://github.com/user-attachments/assets/6e75b6d3-cb33-4142-96a4-0d62bfb55630)|[image](https://github.com/user-attachments/assets/5fe0a940-1168-4cfe-8766-32310e33e44d)|[image](https://github.com/user-attachments/assets/e4fe5291-4d01-4cd9-bb9b-60707c7f96ab)|[image](https://github.com/user-attachments/assets/4fe13a66-07b7-412f-9465-4d0bc0cbac4e)|
