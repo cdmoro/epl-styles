@@ -1,14 +1,14 @@
-# epl-styles
+# EPL styles
 
 Este proyecto tiene la finalidad de implementar un diseño responsive y una variante oscura (dark theme) a la página actual de EPL https://www.epublibre.org
 
-# Diseño responsive
+## Diseño responsive
 
 | Mobile (`428px`) | Tablet (`810px`) | Desktop (`940px`) |
 |:---|:---|:---|
 |<img height="250px" src="https://github.com/user-attachments/assets/0dd674a7-26bf-4f59-98da-b2c9f7d8c91a">|<img height="250px" src="https://github.com/user-attachments/assets/aae5eb98-16c9-4be2-a18c-304b58214b67">|<img height="250px" src="https://github.com/user-attachments/assets/6ccda961-5659-4ddb-a88f-acff4d168d9e">|
 
-# Temas
+## Temas
 
 |Claro|Oscuro|
 |:---|:---|
@@ -34,15 +34,15 @@ Para hacer pruebas rápidas se pueden usar dos extensiones:
 
 # Progreso
 
-La versión Desktop se mantiene sin cambios y se usa solo como referencia.
+La versión Desktop se mantiene sin cambios y se usa solo como referencia. No todas las vistas/páginas requieren de un estilo adicional aparte del estilo base.
 
 | Vista | Página | Mobile (`428px`) | Tablet (`810px`) | Desktop (`940px`) | Desktop dark |
 |:---|:---|:---|:---|:---|:---|
 |__ACCESO__|[acceso/login](https://www.epublibre.org/acceso/login)|[image](https://github.com/user-attachments/assets/3306c135-b9fc-4a01-a12c-cafd12ca3273)|[image](https://github.com/user-attachments/assets/a8e7cfc1-75be-4d95-b4c5-9b67891af66b)|[image](https://github.com/user-attachments/assets/e4ee8efa-d58d-43ae-a7ed-3d76fa0fa55b)|[image](https://github.com/user-attachments/assets/3343bc32-86e5-47da-812c-79531ded077d)|
-||[acceso/solicitar](https://www.epublibre.org/acceso/solicitar)|[image](https://github.com/user-attachments/assets/23fa04d8-c0c9-43b4-ac81-32fc5b917e68)|[image](https://github.com/user-attachments/assets/2e080616-f7f2-4c31-89b6-743d40aae4ea)|[image](https://github.com/user-attachments/assets/3b0950cf-38f8-43cd-a4c3-b85c819f99c5)||
+||[acceso/solicitar](https://www.epublibre.org/acceso/solicitar)|[image](https://github.com/user-attachments/assets/23fa04d8-c0c9-43b4-ac81-32fc5b917e68)|[image](https://github.com/user-attachments/assets/2e080616-f7f2-4c31-89b6-743d40aae4ea)|[image](https://github.com/user-attachments/assets/3b0950cf-38f8-43cd-a4c3-b85c819f99c5)|[image](https://github.com/user-attachments/assets/b6089aaa-f576-4f3a-b653-0c9c827e979a)|
 |__AUTOR__|[autor/index/[id]](https://www.epublibre.org/autor/index/216)|[image](https://github.com/user-attachments/assets/17284229-5ff1-4ae4-9306-81740e63b4cf)|[image](https://github.com/user-attachments/assets/70b4c377-ae83-4620-8cdd-9ca15ea385df)|[image](https://github.com/user-attachments/assets/2ac8711a-eca7-45b2-8099-7df422dba2a1)|[image](https://github.com/user-attachments/assets/4efec2aa-23cb-4f9c-bb16-54d9e75e14cb)|
 |__CATÁLOGO__|[catalogo/index](https://www.epublibre.org/catalogo/index)|[image](https://github.com/user-attachments/assets/9be60ed7-50a6-486f-9b96-92f04e076556)|[image](https://github.com/user-attachments/assets/c807dca9-2bbf-4501-bf70-56d2878b8f06)|[image](https://github.com/user-attachments/assets/9578d1e6-8608-4422-9b95-baeee64b1ca1)|[image](https://github.com/user-attachments/assets/12603479-571f-41ab-a13f-14c9059ee92d)|
-||[catalogo/index](https://www.epublibre.org/catalogo/index) (búsqueda)|[image](https://github.com/user-attachments/assets/50914379-54c6-4aaf-bc41-9aedd3e17e7c)|[image](https://github.com/user-attachments/assets/051d26ea-29ae-4367-9812-b89eff7744f3)|[image](https://github.com/user-attachments/assets/9f89ecc4-a388-47f2-81da-a961a17aa6f7)||
+||[catalogo/index](https://www.epublibre.org/catalogo/index) (búsqueda)|[image](https://github.com/user-attachments/assets/50914379-54c6-4aaf-bc41-9aedd3e17e7c)|[image](https://github.com/user-attachments/assets/051d26ea-29ae-4367-9812-b89eff7744f3)|[image](https://github.com/user-attachments/assets/9f89ecc4-a388-47f2-81da-a961a17aa6f7)|[image](https://github.com/user-attachments/assets/261adce4-1b42-4c97-80b4-3cb70516b7bf)|
 |__CATÁLOGO_COL__|[catalogo_col/index](https://www.epublibre.org/catalogo_col/index)|[image](https://github.com/user-attachments/assets/a0226160-05f9-49d1-9f6c-6200adf6d440)|[image](https://github.com/user-attachments/assets/bd0842e6-fa32-4326-97a2-2d669609adf1)|[image](https://github.com/user-attachments/assets/30766963-75e9-4271-a37d-421433b14c2f)|[image](https://github.com/user-attachments/assets/fdde4706-fc9d-4766-ade6-6ecbd4c038b7)|
 |__COLECCIÓN__|[coleccion/index/[id]](https://www.epublibre.org/coleccion/index/1534)|[image](https://github.com/user-attachments/assets/904a3f12-6f5e-45f8-afc9-96f8ab74e11c)|[image](https://github.com/user-attachments/assets/729c9ffd-d636-4b4f-860e-41be24922e03)|[image](https://github.com/user-attachments/assets/dc0ed3b6-64d1-4f8c-b182-f09d65b95b7e)|[image](https://github.com/user-attachments/assets/72059fdc-b60a-494b-9768-57db1fc9df83)|
 |__DIRECTORIO__|[directorio/index](https://www.epublibre.org/directorio/index)|[image](https://github.com/user-attachments/assets/e18bd789-1ae9-462a-8e2b-fca531d9c2a5)|[image](https://github.com/user-attachments/assets/41a1c711-582d-4efb-986a-83e66a2f5d7d)|[image](https://github.com/user-attachments/assets/5c6bb100-b6ab-430d-b46d-66b1af846204)|[image](https://github.com/user-attachments/assets/889d9c39-c7cf-443a-82e2-08de0ebe2547)|
