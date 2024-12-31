@@ -81,6 +81,17 @@
     margin-right: 1rem;
     margin-left: .5rem;
   }
+  .row:has(> #paginador) {
+    margin: 0;
+  }
+  #paginador {
+    width: auto !important;
+    float: none;
+    margin: 0;
+  }
+  #paginador .pagination {
+    height: auto;
+  }
 }
 @media (min-width: 501px) and (max-width: 940px) {
     /*  HEADER  */
@@ -95,6 +106,7 @@
   .container .row:nth-of-type(2) .span6 {
     width: unset
     
+  
   
   }
   .container {
@@ -208,5 +220,8 @@
   }
   #panel-msg {
     margin: 0 10px;
+  }
+  #paginador {
+    width: auto !important;
   }
 }
