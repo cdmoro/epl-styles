@@ -55,7 +55,7 @@ La versión Desktop se mantiene sin cambios y se usa solo como referencia. No to
 ||[usuario/cuenta/mis_datos](https://www.epublibre.org/usuario/cuenta/mis_datos)||
 ||[usuario/cuenta/lecturas](https://www.epublibre.org/usuario/cuenta/lecturas)||
 ||[usuario/cuenta/biblioteca](https://www.epublibre.org/usuario/cuenta/biblioteca)||
-||[usuario/cuenta/mensajes](https://www.epublibre.org/usuario/cuenta/mensajes)||
+||[usuario/cuenta/mensajes](https://www.epublibre.org/usuario/cuenta/mensajes)|[image](https://github.com/user-attachments/assets/dd918f98-3aa6-4586-8be0-1ab2d517c7c2)|[image](https://github.com/user-attachments/assets/9c9d5989-9188-499f-82cc-4a707fde07c5)|[image](https://github.com/user-attachments/assets/0a42e941-1157-4eb5-ba8d-95940887e359)|[image](https://github.com/user-attachments/assets/e423c0e3-ff2c-4a91-8e40-75a865e056c8)|
 ||[usuario/cuenta/informes_enviados](https://www.epublibre.org/usuario/cuenta/informes_enviados)||
 ||[usuario/cuenta/aportes](https://www.epublibre.org/usuario/cuenta/aportes)||
 ||[usuario/cuenta/autores](https://www.epublibre.org/usuario/cuenta/autores)||
