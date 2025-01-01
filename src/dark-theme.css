@@ -459,4 +459,12 @@
   .panel_mensajes .icon-user {
     filter: invert(1);
   }
+  .dropdown-menu a.disabled-link,
+  .dropdown-menu a.disabled-link:visited,
+  .dropdown-menu a.disabled-link:active {
+    color: #666 !important;
+  }
+  .dropdown-menu a.disabled-link:hover {
+    background: #d9d9d9 !important;
+  }
 }
