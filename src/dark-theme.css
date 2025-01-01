@@ -243,7 +243,6 @@
   }
   .alert a {
     color: var(--bs-alert-link-color, #ffda6a);
-    text-decoration: underline;
   }
   .alert-success {
     --bs-alert-color: #75b798;
@@ -440,5 +439,24 @@
   }
   .disclaimer {
     background: var(--color-bg-secondary);
+  }
+  /* usuario/buscar_titulo */
+  tr[style="background-color:#9cff9c;"] {
+    background: var(--color-bg-tertiary) !important;
+  }
+  tr[style="background-color:#9cff9c;"] a {
+    color: #0088cc;
+  }
+  tr[style="background-color:#9cff9c;"] .icon-info-sign {
+    filter: invert(1);
+  }
+  tr[style="background-color:#d1ffd1"] {
+    background: var(--color-bg-tertiary) !important;
+  }
+  tr.txt_pequena {
+    border-color: var(--color-bg-tertiary);
+  }
+  .panel_mensajes .icon-user {
+    filter: invert(1);
   }
 }
