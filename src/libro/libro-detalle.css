@@ -1,40 +1,50 @@
+/* https://www.epublibre.org/libro/detalle/19293 */
 @media only screen and (max-width: 940px) {
-  .cab_detalle > .row {
+  .cab_detalle>.row {
     display: flex;
     margin: 0;
-/*     gap: 1rem; */
+    /*     gap: 1rem; */
   }
+
   .cab_detalle .row:first-of-type:before,
   .cab_detalle .row:first-of-type:after {
     content: none;
   }
+
   .cab_detalle .cont-ampl-portada {
     margin: 0;
   }
-  .cab_detalle > .row .span2 {
+
+  .cab_detalle>.row .span2 {
     margin: 0;
   }
-  .cab_detalle > .row .span8 {
+
+  .cab_detalle>.row .span8 {
     width: auto;
     padding: 1rem;
     margin: 0;
     flex-grow: 1;
     padding-bottom: 0;
   }
-  .cab_detalle > .row .span8 > .well_black {
+
+  .cab_detalle>.row .span8>.well_black {
     display: flex;
     gap: 1rem;
   }
-  .cab_detalle > .row .span8 > .well_black > div:first-of-type {
+
+  .cab_detalle>.row .span8>.well_black>div:first-of-type {
     flex: 1;
   }
-  .cab_detalle > .row .span8 div.txt_blanco:nth-of-type(1) {
+
+  .cab_detalle>.row .span8 div.txt_blanco:nth-of-type(1) {
     margin-bottom: 13px;
     padding: .5rem .5rem .1rem;
   }
-  .cab_detalle > .row .span8 div.txt_blanco:nth-of-type(2) div:first-of-type {
+
+  .cab_detalle>.row .span8 div.txt_blanco:nth-of-type(2) div:first-of-type {
     width: unset !important;
   }
+
   .btn-toolbar2 {
     margin: 18px 0;
     display: flex !important;
@@ -43,61 +53,72 @@
     align-items: end;
     column-gap: 8px;
   }
+
   .info-descargas {
     margin: 0;
   }
+
   #paginador {
     width: unset !important;
   }
+
   .mensajes .span4.titulo {
     width: unset;
     display: block;
   }
+
   .mensajes .span4.pad_similar.txt_pequena {
     display: flex;
     flex-wrap: wrap;
     width: auto;
   }
+
   .mensajes .span4.pad_similar.txt_pequena div[style="clear:both;"] {
     display: none;
   }
+
   .similares .pad_3.txt_pequena.pad_l_20 {
     padding: .2rem 1rem;
     margin: 0;
     display: block !important;
   }
-  
+
   td.contenido {
     max-width: 500px !important;
   }
-  .ali_justi > span {
+
+  .ali_justi>span {
     overflow: hidden;
     display: inline-block;
     max-width: 90vw;
     width: 100%;
   }
-  
+
   .ali_justi table.negrita td {
     text-align: left;
     /*! display: inline; */
   }
 }
+
 @media only screen and (max-width: 650px) {
-  .cab_detalle > .row {
+  .cab_detalle>.row {
     display: flex;
     margin: 0;
-  /*! gap: 1rem; */
+    /*! gap: 1rem; */
     flex-wrap: wrap;
   }
-  .cab_detalle .row:first-of-type > div {
+
+  .cab_detalle .row:first-of-type>div {
     width: unset;
     margin: 0;
     float: none;
   }
-  .cab_detalle .row:first-of-type > div.span2 {
+
+  .cab_detalle .row:first-of-type>div.span2 {
     position: relative;
     flex-basis: 100%;
   }
+
   .etiqueta3 {
     position: absolute;
     left: 0;
@@ -105,52 +126,64 @@
     right: unset;
     top: unset;
   }
+
   .portada-libro {
     width: unset;
   }
+
   .portada-libro .portada-libro {
     width: unset;
     overflow: hidden;
   }
+
   #portada {
     width: 100%;
     position: relative;
     top: -25%;
   }
-  .cab_detalle .row:first-of-type > div:last-of-type {
+
+  .cab_detalle .row:first-of-type>div:last-of-type {
     flex-basis: 100%;
   }
-  .cab_detalle .row:first-of-type > div:last-of-type .margen_17-l {
+
+  .cab_detalle .row:first-of-type>div:last-of-type .margen_17-l {
     display: flex;
     gap: .5rem;
     flex-direction: row;
     margin: 0;
     padding: 0 1rem 1rem;
   }
-  .cab_detalle .row:first-of-type > div:last-of-type .margen_17-l div {
+
+  .cab_detalle .row:first-of-type>div:last-of-type .margen_17-l div {
     flex: 1;
     margin: 0;
   }
+
   tr:has(.contenido) {
     display: flex;
     flex-direction: column;
     /*! width: 100%; */
   }
-  tr:has(.contenido) > td {
+
+  tr:has(.contenido)>td {
     width: 100%;
   }
+
   tr:has(.contenido) .mensajes .titulo {
     width: unset;
     display: block;
   }
+
   .banda-separacion {
     display: none;
   }
+
   td.contenido {
     max-width: unset !important;
   }
+
   .ampl-portada {
-   width: 100vw; 
-   height: auto;
+    width: 100vw;
+    height: auto;
   }
 }

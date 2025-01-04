@@ -1,12 +1,13 @@
+/* https://www.epublibre.org/usuario/cuenta/nuevo_mensaje */
 @media only screen and (max-width: 940px) {
   #nuevo iframe {
     width: 100% !important;
   }
-  
+
   #appendedInputButton {
     width: 300px;
   }
-  
+
   #txt_asunto {
     width: 300px;
   }
@@ -18,9 +19,11 @@
     width: unset;
     text-align: left;
   }
+
   #nuevo .controls {
     margin: 0;
   }
+
   #nuevo .controls input[type="text"] {
     width: 100%;
   }

@@ -1,0 +1,36 @@
+/* https://www.epublibre.org/encuesta/detalle/37 */
+@media only screen and (max-width: 600px) {
+    .well-small.e_contenedor.e_azul {
+        border-radius: 0;
+    }
+
+    .e_opcion {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .e_cont_texto {
+        width: auto;
+    }
+
+    .e_cont_estad {
+        min-width: auto;
+        display: flex;
+        width: auto;
+    }
+
+    .e_cont_barra_estad {
+        width: auto !important;
+    }
+
+    .e_cont_estad .pad_l_5 {
+        width: 5rem;
+        text-align: right;
+        padding-right: .5rem;
+    }
+
+    .e_bar_no_selec {
+        width: auto !important;
+        background: none !important;
+    }
+}

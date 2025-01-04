@@ -19,7 +19,7 @@ Este proyecto tiene la finalidad de implementar un diseño responsive y una vari
 Instrucciones para implentar estos estilos en la web de EPL, en cada página:
 
 1. Agregar `<meta name="viewport" content="width=device-width, initial-scale=1">` en el `head`
-2. Agregar el archivo [epl_base.css](src/epl_base.css), ya que contiene estilos comunes a todas las páginas
+2. Agregar el archivo [base.css](src/base.css), ya que contiene estilos comunes a todas las páginas
 3. Agregar el archivo correspondiente a cada página
 
 > nota: los archivos CSS usados en este proyecto sobreescriben los estilos actuales de Bootstrap.

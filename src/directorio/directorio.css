@@ -1,3 +1,4 @@
+/* https://www.epublibre.org/directorio/index */
 @media only screen and (max-width: 810px) {
   #contenido {
     display: flex;
@@ -6,15 +7,18 @@
     margin: 0;
     padding: 0 1rem;
   }
+
   #contenido:before,
   #contenido:after {
     content: none;
   }
-  #contenido > div {
+
+  #contenido>div {
     padding: 0;
     width: unset;
     margin: 0;
   }
+
   #contenido div:last-child {
     flex-basis: 100%;
     padding-top: .5rem;
@@ -22,25 +26,30 @@
     width: unset;
     float: unset;
   }
+
   .well_black.pad_bus .row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
+
   .well_black.pad_bus .row:before,
   .well_black.pad_bus .row:after {
     content: none;
   }
 }
+
 @media only screen and (max-width: 450px) {
   #contenido {
     flex-direction: column;
     /*! align-items: start; */
   }
+
   .well_black.pad_bus .row {
     justify-content: left;
   }
-  .well_black.pad_bus .row > div {
+
+  .well_black.pad_bus .row>div {
     width: unset;
   }
 }
