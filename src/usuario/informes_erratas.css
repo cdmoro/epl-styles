@@ -1,0 +1,65 @@
+/* https://www.epublibre.org/usuario/cuenta/informes_erratas */
+@media only screen and (max-width: 940px) {
+  .panel_mensajes {
+    padding: 5px;
+  }
+  .panel_mensajes .emails_cabecera th {
+    width: auto !important;
+  }
+  .panel_mensajes td,
+  .panel_mensajes td a {
+    white-space: wrap;
+    vertical-align: top;
+  }
+  .panel_mensajes td:nth-of-type(3) a:nth-of-type(2) {
+    width: 90%
+  }
+  .panel_mensajes td:nth-of-type(3),
+  .panel_mensajes td:nth-of-type(4),
+  .panel_mensajes td:nth-of-type(5) {
+    white-space: nowrap;
+  }
+  #paginador_corregidas {
+    width: auto !important;
+    float: none;
+  }
+  .pagination ul {
+    box-shadow: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .panel_mensajes .emails_cabecera {
+    display: none;
+  }
+  .panel_mensajes tr {
+    display: grid;
+    border-top: none;
+  }
+  .panel_mensajes td {
+    border-top: none;
+  }
+  .panel_mensajes td:nth-of-type(1) {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .panel_mensajes td:nth-of-type(2) {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: right;
+    opacity: .6;
+    font-size: 80%;
+  }
+  .panel_mensajes td:nth-of-type(3) {
+    grid-row: 2/4;
+    grid-column: 1;
+  }
+  .panel_mensajes td:nth-of-type(4) {
+    text-align: right;
+  }
+  .panel_mensajes td:nth-of-type(5) {
+    grid-row: 3;
+    grid-column: 2;
+    text-align: right;
+  }
+}
