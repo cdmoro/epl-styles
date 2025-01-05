@@ -2,7 +2,7 @@
 @media only screen and (max-width: 600px) {
   .container .container-fluid .row-fluid .well.pad {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .container .container-fluid .row-fluid .well.pad .well_black.pad {
