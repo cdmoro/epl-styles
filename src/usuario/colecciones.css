@@ -1,0 +1,26 @@
+/* https://www.epublibre.org/usuario/cuenta/colecciones */
+@media only screen and (max-width: 940px) {
+  #cont_propios,
+  #cont_comunes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #propias div,
+  #comunes div {
+    float: unset;
+  }
+  #propias div[style="clear:both;"],
+  #comunes div[style="clear:both;"] {
+    display: none;
+  }
+  #paginador_propios,
+  #paginador_comunes {
+    width: auto !important;
+    float: none;
+  }
+  
+  .pagination {
+    height: auto;
+  }
+}
