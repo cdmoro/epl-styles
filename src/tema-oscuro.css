@@ -13,6 +13,9 @@
     color: var(--font-color);
     background: var(--color-bg-primary);
   }
+  #panel-msg {
+    color: #000;
+  }
   .container > .row:nth-of-type(2) .menu.ali_derecha::before {
     background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, var(--color-bg-primary) 100%);
   }
