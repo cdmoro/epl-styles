@@ -141,6 +141,7 @@
   .container > .row:nth-of-type(2) a img {
     padding-top: 0rem;
     align-self: end;
+    margin: 0;
   }
   .container > .row:nth-of-type(2) .span2.txt_pequena.txt_blanco.pad_t_15 {
     padding-top: 0rem;
@@ -151,7 +152,7 @@
     display: flex;
     overflow-x: auto;
     justify-content: left;
-    padding: 1.5rem 10px .75rem;
+    padding: 0.5rem 10px .5rem;
   }
   .container > .row:nth-of-type(2) .menu.ali_derecha:after {
     content: " ";
