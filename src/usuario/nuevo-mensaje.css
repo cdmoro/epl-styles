@@ -1,15 +1,28 @@
 /* https://www.epublibre.org/usuario/cuenta/nuevo_mensaje */
 @media only screen and (max-width: 940px) {
+    .container > .row > .span12 > .well.well-gray.pad {
+    border-radius: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    background: #AAA;
+    border-color: #AAA;
+  }
+  
   #nuevo iframe {
     width: 100% !important;
   }
+  
+  .input-append:has(#appendedInputButton) {
+    display: flex;
+    margin-right: -6px;
+  }
 
   #appendedInputButton {
-    width: 300px;
+    /*! width: 100%; */
   }
 
   #txt_asunto {
-    width: 300px;
+    width: 100%;
   }
 }
 
@@ -26,5 +39,9 @@
 
   #nuevo .controls input[type="text"] {
     width: 100%;
+  }
+  
+  #toolbar div {
+    float: none;
   }
 }
