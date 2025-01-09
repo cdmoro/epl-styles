@@ -344,13 +344,11 @@
   .alert .icon-warning-sign {
     filter: invert(1);
   }
-  .mensajes a .avatar50.borde-portada {
-    background-color: var(--color-bg-tertiary);
-    background-blend-mode: color-burn;
-  }
-  .cab_detalle a .avatar50.borde-portada {
-    background-color: var(--color-bg-quaternary);
-    background-blend-mode: color-burn;
+  .mensajes a .avatar50.borde-portada,
+  .cab_detalle a .avatar50.borde-portada,
+  .mensajes a .avatar50.borde-portada img,
+  .cab_detalle a .avatar50.borde-portada img {
+    filter: invert(1);
   }
   .borde-inf-claro {
     border-bottom: 1px solid #777;
