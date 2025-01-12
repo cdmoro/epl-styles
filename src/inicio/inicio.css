@@ -68,11 +68,24 @@
   }
   
   td.contenido div.titulo {
-    padding: 15px;
+    padding: 12px;
   }
   
   td.contenido div.titulo span {
     line-height: 1;
+  }
+  
+  td.contenido div.titulo:has(.pull-left) {
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+    align-items: center;
+    width: auto;
+  }
+  
+  td.contenido div.titulo:has(.pull-left) > div {
+    margin: 0 !important;
+    /*! max-width: unset; */
   }
 
   .row.ali_centro.titulo.degradado {
