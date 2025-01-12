@@ -2,17 +2,10 @@
 
 Este proyecto tiene la finalidad de implementar un diseño responsive y una variante oscura (dark theme) a la página actual de EPL https://www.epublibre.org
 
-## Diseño responsive
-
-| Mobile (`428px`) | Tablet (`810px`) | Desktop (`940px`) |
-|:---|:---|:---|
-|<img height="250px" src="https://github.com/user-attachments/assets/0dd674a7-26bf-4f59-98da-b2c9f7d8c91a">|<img height="250px" src="https://github.com/user-attachments/assets/aae5eb98-16c9-4be2-a18c-304b58214b67">|<img height="250px" src="https://github.com/user-attachments/assets/6ccda961-5659-4ddb-a88f-acff4d168d9e">|
-
-## Temas
-
-|Claro|Oscuro|
-|:---|:---|
-|![image](https://github.com/user-attachments/assets/d57c445a-4e2e-4c02-95bf-341d1c1f7231)|![image](https://github.com/user-attachments/assets/7bdb67e0-9bea-42da-a83b-815b1bf81ff4)|
+|Tema| Mobile (`428px`) | Tablet (`810px`) | Desktop (`940px`) |
+|:---|:---|:---|:---|
+|Claro|<img height="250px" src="https://github.com/user-attachments/assets/9d067ad1-b403-4591-ba36-33c06dbb099c">|<img height="250px" src="https://github.com/user-attachments/assets/eb733ce3-623f-4971-8ab4-2cfb9ba15394">|<img height="250px" src="https://github.com/user-attachments/assets/ec15a657-b70c-4c03-a193-0802a35ef756">|
+|Oscuro|<img height="250px" src="https://github.com/user-attachments/assets/d766a185-1630-4a09-b960-56be029074ef">|<img height="250px" src="https://github.com/user-attachments/assets/233ee773-b57b-46ef-993a-8112e1be558c">|<img height="250px" src="https://github.com/user-attachments/assets/d02bf528-5bd6-46c0-9713-868b7ab95ad0">|
 
 # Instrucciones
 
