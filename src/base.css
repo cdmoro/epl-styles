@@ -213,7 +213,7 @@
   .span2.margen_b_5 form .input-append input {
     flex: 1;
   }
-  .container .row:first-child a {
+  .container > .row:first-child a {
     display: inline-block;
     width: 18px;
     overflow: hidden;
