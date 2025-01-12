@@ -504,4 +504,8 @@
     background-color: var(--color-bg-secondary) !important;
     color: var(--font-color) !important;
   }
+  
+  img[src="https://images.epublibre.org/especiales/14.gif"] {
+    filter: invert(1);
+  }
 }
